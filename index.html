@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Shopping Site!</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="border-bottom: 2px solid black;">
+        <a class="navbar-brand" href="#">E-Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <a class="nav-link" href="#"><b>About Us</b></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" href="#"><b>Signup</b></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#"><b>Login</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+
+            <!-- Filters-->
+            <div class="col-lg-3 p-4 mx-auto">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action"
+                        style="background-color: none;"><b>All Products</b></a>
+
+                    <a href="#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: none;"><b>Clothes-Men</b></a>
+                    <a href="#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: none;"><b>Clothes-Women</b></a>
+                    <a href="#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: none;"><b>Watches</b></a>
+                    <a href="#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: none;"><b>Shoes</b></a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-9 p-4 mx-auto">
+                <div class='row'>
+
+                    <div class="card mb-3 mx-2" id={{product.id}} style="width: 15rem; ">
+                        <img src="images/black_shirt_for_mens.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">BlACK SHIRT FOR MENS</p>
+                            <br>
+                            <p class="card-text"><b>₹ 950</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="images/blue_jeans.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">BLUE JEANS - MENS</p>
+                            <br>
+                            <p class="card-text"><b>₹ 800</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block ">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="images/blue_shirt.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-title">BLUE FORMAL SHIRT - MENS</p>
+                            <p class="card-text"><b>₹ 900</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="images/womens_shirts-2.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">BLACK & RED SHIRT - WOMENS</p>
+                            <br>
+                            <p class="card-text"><b>₹ 600</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add TO Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="images/womens_shirts.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">STRIPPED SHIRT COLOR COMBINATION - WOMENS</p>
+                            <p class="card-text"><b>₹ 750</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="images/womens_shirts-3.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">LIGHT BLUE JEANS - WOMENS</p>
+                            <p class="card-text"><b>₹ 999</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
